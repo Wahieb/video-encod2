@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: heebow/videoencd:latest ,heebow/videoencd:${{github.run_number}}
+          tags: heebow/videoencd1:latest ,heebow/videoencd1:${{github.run_number}}
